@@ -1,0 +1,32 @@
+{
+  "name": "henrique",
+  "version": "1.0.1",
+  "description": "A personal card for Henrique Tavares (@tavareshenrique)",
+  "main": "card.js",
+  "bin": {
+    "carine": "./card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tavareshenrique/henrique"
+  },
+  "scripts": {
+    "test": "node card.js"
+  },
+  "dependencies": {
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0"
+  },
+  "keywords": [
+    "business card",
+    "npm card",
+    "npm",
+    "npx"
+  ],
+  "author": {
+    "name": "Henrique Tavares",
+    "email": "ihenrits@gmail.com",
+    "url": "https://henriquetavares.com"
+  },
+  "license": "MIT"
+}
