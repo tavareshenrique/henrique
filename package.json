@@ -1,6 +1,6 @@
 {
   "name": "henrique",
-  "version": "2.0.1",
+  "version": "3.0.1",
   "description": "A personal card for Henrique Tavares (@tavareshenrique)",
   "main": "card.js",
   "bin": {
