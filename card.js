@@ -6,7 +6,7 @@ const chalk = require("chalk");
 
 const data = {
     name: chalk.red("                  Henrique Tavares"),
-    work: `${chalk("Front End Developer at")} ${chalk.blueBright("Develcode")}`,
+    work: `${chalk("Front End Developer")}`,
 
     github: chalk.gray("https://github.com/") + chalk.green("tavareshenrique"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.green("tavareshenrique"),
