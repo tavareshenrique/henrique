@@ -5,14 +5,14 @@ const boxen = require("boxen");
 const chalk = require("chalk");
 
 const data = {
-    name: chalk.red("                  Henrique Tavares"),
-    work: `${chalk("Front End Developer")}`,
+    name: chalk.blue("                  Henrique Tavares"),
+    work: `${chalk("      Front End Developer")}`,
 
     github: chalk.gray("https://github.com/") + chalk.green("tavareshenrique"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.green("tavareshenrique"),
     email: chalk.green("ihenrits@gmail.com"),
     web: chalk.green("https://henriquetavares.com"),
-    skills: chalk.redBright("JS, TS, React, React Native, Node"),
+    skills: chalk.redBright("JS, TS, ReactJS, NextJS e NodeJS"),
 
     npx: chalk.red("npx henrique"),
 
@@ -43,7 +43,7 @@ const me = boxen(
         ``,
         
         `${chalk.italic(
-            "                       think different. "
+            "                 think different. "
         )}`
     ].join("\n"),
     {
